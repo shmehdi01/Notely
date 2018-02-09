@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="shmehdi.demo.notely.DetailedScreen">
+    <include layout="@layout/toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dp"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        android:paddingBottom="20dp"
+        android:paddingRight="20dp">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textSize="40sp"
+            android:textColor="#000"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Last Updated"
+            android:textSize="14sp"
+            android:textColor="#b3b3b3"
+            />
+    </LinearLayout>
+
+    <ScrollView
+        android:paddingTop="10dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#8b8b8b"
+            android:textIsSelectable="true"
+            android:text="gg"/>
+    </ScrollView>
+
+
+
+</LinearLayout>

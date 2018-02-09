@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Notely</string>
+    <string name="filter_open">Apply Filter</string>
+    <string name="title_activity_detailed_screen">DetailedScreen</string>
+</resources>
